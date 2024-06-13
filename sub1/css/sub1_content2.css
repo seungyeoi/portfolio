@@ -1,0 +1,27 @@
+/* 인사말 실제 본문 내용 */
+#content{width: 1200px; }
+.content_area .tab_menu ul { overflow: hidden;  margin-bottom: 60px; margin-top: 50px;
+   box-sizing: border-box;}
+.content_area .tab_menu li a {font-weight: 400;font-size: 1.28rem;color: #333;
+    display: block; padding: 15px; text-align: center;}
+    
+
+
+
+
+.first{width: 1200px; font-size: 1.67rem; font-weight: 500; margin-bottom: 60px; margin-top: 200px;}
+.first p {width: 1200px; }
+.first p span{color: #ED1C24;}
+
+.greeting{height: 900px; margin: 0 auto;position: relative; margin-bottom: 400px;}
+.greeting::after{content: ''; display: block; width: 2000px;
+       height: 900px; background:#f8f8f8 ; position: absolute;
+      top:0; left: 50%; margin-left: -1000px; z-index: -1;}
+
+.greeting .ceo_img img{float: left; position: absolute; top: 90px; left: 60; margin-right: 70px;}
+.greeting .text {width: 610px;float: right;text-align: justify;position: absolute;
+right: 120px; top: 90px; font-size: 1.11rem; font-weight: 400; }
+.greeting .text p{margin-bottom: 40px; line-height: 1.5rem;}
+.greeting .text p:nth-of-type(6){margin: 10px 0 8px 0}
+.greeting .text p span{font-size: 1.39rem; font-weight: 500; color: #2ab6ad;}
+.greeting .text .last{color: #333; font-size: 1.2rem;}

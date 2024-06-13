@@ -1,0 +1,36 @@
+/* 회사개요의 실제 본문 내용 */
+#content .content_area{width: 1200px;}
+#content span{display: block;}
+#content{width: 1200px;}
+.content_area .tab_menu ul {
+    overflow: hidden;
+    margin-bottom: 50px;
+    margin-top: 50px;
+   box-sizing: border-box;}
+.content_area .tab_menu li a {
+    font-weight: 400;
+    font-size: 1.28rem;
+    color: #333;
+    display: block;
+    padding: 15px;
+    text-align: center;}
+    
+
+.content_area .tab_menu li {
+       float: left;
+       width: 25%;
+       box-sizing: border-box;border: 1px solid #ccc;}
+   
+ .content_area .tab_menu li:hover a, .content_area .tab_menu li .current{background:#2ab6ad ;color: #fff;}
+ 
+
+.info{position: relative;}
+.info .social{margin: 110px 0 ;}
+.info .social h3{font-size: 1.94rem;font-weight: 600;margin-bottom: 25px;}
+.info .social span{font-size: 1.11rem; font-weight: 400;}
+ 
+
+.info .social_inner{padding-left: 500px; }
+.info .social_inner li {margin-bottom: 45px;}
+.info .social_inner li dt{font-size: 1.11rem;font-weight: 600;margin-bottom: 45px;}
+.info .social_inner li dd{font-size: 1rem; font-weight: 400;margin-bottom: 45px;}

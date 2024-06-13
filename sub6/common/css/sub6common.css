@@ -1,0 +1,22 @@
+/* 회사소개의 공통 css */
+
+/* 비주얼영역 */
+.visual{width: 2000px; height: 400px; background:url(../images/company6.jpg); position: relative; left: 50%;top: 0; transform: translateX(-50%);}
+.visual span{font-size: 2em; display: block; color: #fff;position: absolute; left: 0; top: 200px; width: 100%; text-align: center;}
+
+/* 서브메뉴 영역 */
+.sub_nav{width: 100%; border-bottom: 1px solid #ccc; }
+.sub_nav ul{overflow: hidden; width: 1200px; margin: 0 auto;}
+.sub_nav ul li{width: 33.3%;float: left; text-align: center;}  
+.sub_nav ul li a{font-size: 1.2rem; font-weight: 600; padding: 15px 0; }
+.sub_nav ul li a:hover,.sub_nav ul li .current{border-bottom: 3px solid #2ab6ad;}
+
+
+/* tittle_area 영역 */
+#content{width: 1200px; margin: 0 auto;}
+#content .tittle_area{height: 400px; position: relative; overflow: hidden;}
+#content .tittle_area .line_map{position: absolute; right: 30px; top: 20px;}
+#content .tittle_area .line_map strong{color: #2ab6ad;}
+#content .tittle_area h2{font-size: 3.33rem; text-align: center;margin-top: 100px; margin-bottom: 20px; position: relative;}
+#content .tittle_area h2::after{content: ''; display: block; width: 6px; height: 90px; position: absolute;top: 200px; left: 50%;background: #2ab6ad; margin-top: 20px;}
+#content .tittle_area p{font-size: 1.11rem; text-align: center;}

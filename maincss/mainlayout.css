@@ -1,0 +1,235 @@
+@charset "utf-8";
+
+
+/*  font-family: "Noto Sans KR", sans-serif;*/
+
+
+
+/* 비주얼영역 */
+.visual{width: 2000px; position: relative; top: 0;left: 50%;
+    transform: translate(-50%); position: relative;background: #000;}
+
+.gallery{position:relative;left:0; top:0; overflow:hidden; width:2000px; height:1140px;}
+.gallery li{display:none; position: relative;}
+
+.gallery img{animation: ani 30s linear infinite;}
+@keyframes ani {
+    from {transform: scale(1);}
+    to {transform: scale(1.2);}
+}
+.gallery li span{font-size: 2.8em; font-family: "Noto Sans KR", sans-serif; 
+    font-weight: 500; color: #fff; position: absolute; opacity: 0;
+    left: 450px; top:450px;}
+
+
+/* .gallery li p{position: absolute; left: 450px; top: 280px; opacity: 0; 
+    font-size: 50px; color: #fff;} */
+
+/* .gallery .link1 span{ left:  100px; top: 300px;} */
+
+.dock{width: 330px; position: absolute; left: 460px; top: 700px;}
+
+.dock .mbutton{ margin-right:15px; cursor:pointer; 
+    display:block; float:left; width:50px; height:4px;
+    background: #fff; border-radius:4px;
+    transition: all .5s}
+
+.dock .ps{ margin-right: 15px;
+    margin-top: -11px;
+    cursor: pointer;
+    display: block;
+    float: left;
+    width: 25px;
+    height: 25px;
+    }
+.dock .ps i{font-size: 20px;
+    color: #fff;
+    opacity: .6; transition: all .5s;}   
+.dock .ps:hover i{opacity: .85;}
+.fa-regular{font-weight: 400;}
+    
+
+.visual .btn{display: block;
+    position: absolute;
+    top:450px;
+    left:50%;
+    font-size: 4em;
+    font-weight: 300;
+    cursor: pointer; opacity: .35; transition: all .5s;
+    color: #fff;}
+.visual .btn:hover{opacity: .85;}
+
+
+.visual .btnLeft{
+    margin-left: -800px;}
+.visual .btnRight{
+    margin-left: 760px;} 
+
+
+/* 
+.visual p{font-size: 3.33em; font-family: "Noto Sans KR", sans-serif; 
+   font-weight: 500; color: #ffffff; position: absolute; 
+   left: 0; top: 0; margin-left: 435px; margin-top: 404px;} */
+
+
+
+
+
+
+/* 본문콘텐츠영역 */
+#content{width:100%; font-family: "Noto Sans KR", sans-serif; color: #333333;}
+#content section{overflow: hidden;}
+#content section h3{font-size: 3.33rem;text-align: center;
+     margin: 100px 0 30px; text-align: center;}
+#content section>p{text-align: center;font-size: 1.33rem;
+    margin-bottom: 36px; font-weight: 500;}
+#content .info,.management{font-family: "Noto Sans KR", sans-serif;}
+
+
+
+
+#content .info{width: 1200px; margin: 0 auto; position: relative;}
+#content .info img{margin-bottom: 60px;}
+#content .info ul{overflow: hidden; margin-bottom: 100px; margin-left: 50px; padding: 20px 0;}
+#content .info li{float: left;width: 250px;height: 380px; margin-right: 30px;
+   text-align: center; transition: all .5s ease-out;}
+#content .info ul li img{margin-top: 35px;}
+#content .info li:last-child{margin-right: 0;}
+#content .info li i{font-size: 6em; display: block; margin:40px 0 ;}
+#content .info li dt{font-size: 1.11em; font-weight: 700; margin-bottom: 10px; line-height: 1.5em;}
+#content .info li dd{line-height: 1.5em; font-size: .89em; font-weight: 500;}
+#content .info li:hover{background:#2ab6ad ; box-shadow: 1px 1px 15px 2px rgba(0,0,0,.4); color: #fff;} 
+#content .info .more{position: absolute; 
+  right:50px; top:220px}
+#content .info .more span{font-size: 2.5em; color: #ccc; transition: all .5s ease-out;}
+#content .info .more:hover span{transform: rotate(180deg); color: #999;}
+
+
+ #content .business{width: 100%; background: #f8f8f8;}
+ #content .business .business_cotainer{width: 1200px; margin: 0 auto;padding-bottom: 128px; }
+ #content .business p{text-align: center;font-size: 1.33rem;
+    margin-bottom: 36px; font-weight: 500;}
+ #content .business ul{overflow: hidden; width: 1130px; margin: 0 auto 150px;}
+ #content .business li{position: relative;float: left;width: 565px; height: 260px;color: #fff; overflow: hidden;}
+ #content .business li img{transition: all .5s;}
+ #content .business li:hover img{transform: scale(1.2); filter: blur(3px);}
+ #content .business li dl{width: 565px; height: 260px; position: absolute;
+      left:0; top:0; transition: all .5s; }
+ #content .business li:hover dl{background:rgba(42,147,140,.7) ;}     
+ #content .business li dt{font-size: 1.67rem; font-weight: 700; text-align: center;
+    margin: 110px 0 20px; transition: all .5s;}
+ #content .business li:hover dt{margin-top: 35px;}   
+ #content .business li dd{font-size: 1.11rem; font-weight: 500; text-align: center;
+         line-height: 1.5em; opacity: 0; transition: all .5s;}
+ #content .business li:hover dd{opacity: 1;}
+ #content .business li a{color: #fff; margin: 15px auto 0;width:150px;
+       text-align: center; border: 2px solid #fff;padding: 5px 0;border-radius: 15px;
+      font-size: .8em; transition: all .5s ease-out;}
+ #content .business li a:hover{background:#fff; color:#2a938c;}
+
+
+
+
+
+
+
+#content .management{width: 100%;height: 1100px; overflow: hidden; background: url(../mainimages/management4.jpg) no-repeat;background-size: cover;}
+#content .management p{font-size: 1.33rem; font-weight: 500; text-align: center; margin-bottom: 35px;}
+#content .management .management_inner{width: 1200px; margin: 0 auto; overflow: hidden;} 
+
+#content .management ul{overflow: hidden;position: relative;padding: 25px;}
+#content .management li{overflow: hidden;width: 364px; height: 560px; border-radius: 30px; 
+    float: left; position: relative; margin-right: 18px; transition: all .5s; }
+#content .management li:hover{height: 500px; transform: translateY(-20px);}  
+#content .management li:first-child{margin-top: 100px;}  
+#content .management li:last-child{margin-right: 0;margin-top: 100px;}  
+#content .management li img{border-radius: 0 0 30px 30px;transition: all .5s;}
+#content .management li > span{display: block; width: 1px; height: 1px;border-radius: 50%;
+    background: rgba(0,0,0,.6);position: absolute; right: -200px; top:-200px;}
+#content .management li:hover >span{width: 900px; height: 900px; transition: all 1s;}    
+#content .management li dl{position: absolute; top: 515px; left:0;width: 364px; transition: all .5s;} 
+#content .management li:hover dl{top:150px ;}
+#content .management li dt{font-size: 1.56rem; font-weight: 700; color: #fff; text-align: center;
+   margin-bottom: 30px;}
+#content .management li dd{font-size: 1.11rem; font-weight: 500; color: #fff; 
+    text-align: center;line-height: 1.5em; text-align: justify; margin: 0 30px 30px;
+   opacity: 0; } 
+#content .management li:hover dd{opacity: 1; transition: all .5s; transition-delay: .5s;}
+#content .management li dd span{font-size: 3em;}
+#content .management li dd a{color: #fff; width:60px ; height: 60px;margin: 20px auto 0; transition: all .5s ;}
+#content .management li dd a:hover{color: #ed1c24; transform: rotate(180deg);}
+
+
+
+
+
+#content .media{width: 100%; overflow: hidden; padding-bottom: 200px; position: relative;}
+#content .media p{font-weight: 500;}
+#content .media::before{content: ''; width:850px ; height: 850px;
+         border: 3px solid #ed1c24; border-radius: 50%; position: absolute;
+         left: 50%;top: 50px;margin-left: -50px ;opacity: .4;}
+#content .media::after{content: ''; width:600px ; height: 600px;
+    background: #d4f0ef; border-radius: 50%; position: absolute;
+    left: 50%; bottom: 50px;margin-left: -750px ;opacity: .4; z-index: -1;}
+#content .media ul{ margin: 0 auto; padding: 50px 0 ;}
+#content .media li{width: 500px;height: 650px; background:#e8e8e8 ; overflow: hidden;
+  border-radius: 30px; position: relative;}
+#content .media li:last-child{margin-right: 0;}
+#content .media li dl{margin: 120px 40px 0;}
+#content .media ul li dt{font-size: 1.3rem; font-weight: 700; margin-bottom: 50px;}
+#content .media li dd{font-size: 1.1rem; font-weight: 500;text-align:justify; line-height: 1.5em;}
+#content .media li dd span{display: block;position: absolute; right: 40px;bottom: 80px;}
+.swiper-container {
+    width: 1600px; margin: 0 auto;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 500px;
+  height: 650px;
+
+}
+
+#content .media li:nth-child(2){ background:#333 ; color: #fff;}
+#content .media li:nth-child(2) a{color: #fff;} 
+
+
+
+
+
+
+#content .recruitment{width: 2000px; height: 920px;overflow: hidden; position: relative;left: 50%; transform: translateX(-50%);
+    background: url(../mainimages/recruitment4.jpg); margin-bottom: 100px;}
+#content .recruitment p{text-align: center; font-size: 1.33rem; font-weight: 500;margin-bottom: 150px;}
+#content .recruitment .recruitment_inner{width: 1200px; }
+
+#content .re_left{overflow: hidden; margin-left:320px;} 
+#content .re_left li{width: 230px;font-size: 1.5rem; font-weight: 600; overflow: hidden; position: relative;padding-bottom: 10px;margin: 0 0 30px 50px; border-bottom: 2px solid #999; }
+#content .re_left li a{display: block;font-size: 1rem; font-weight: 500; color: #ed1c24; position: absolute; left: 150px; top: 10px;
+opacity: 0; transition: all .4s  }
+#content .re_left li:hover a{opacity: 1;}
+
+
+#content .recruitment .icon{position: absolute; left: 370px; top: 700px;} 
+#content .recruitment .icon span{font-size: 1em; font-weight: 600;}
+#content .recruitment .icon .material-symbols-outlined{font-size: 2em; font-weight:700;}
+
+
+
+#content .recruitment .recruitment_right{width:2000px; position: absolute; left: 50%; top: 400px; margin-left: -300px;}
+#content .recruitment .recruitment_right li:nth-of-type(1){float: left; margin-right: 40px;}
+#content .recruitment .recruitment_right li:nth-of-type(2){float: left; margin-right: 40px;}
+#content .recruitment .recruitment_right li:nth-of-type(3){float: left; }
+#content .recruitment .recruitment_right li{transition: all .5s ease-out; position: relative;overflow: hidden;}
+#content .recruitment .recruitment_right li dl{width: 367px; height: 359px; position: absolute; background: rgba(0,0,0,.7)
+    ;left: 0; top: 0; opacity: 0;transition: all .8s ease-out;}
+#content  .recruitment_right li:hover dl{opacity: 1;}
+
+
+#content .recruitment .recruitment_right dl dt{font-size: 1.33em; font-weight: 700; text-align: 
+    center; color: #ed1c24;margin: 120px 0 30px;}
+#content .recruitment .recruitment_right dl dd{font-size: 1.11em; font-weight: 500; text-align: 
+    center; color: #ffffff;line-height: 1.5em;}
+#footerArea div:nth-of-type(2){width: 520px; margin: 0 auto;}
+
+  

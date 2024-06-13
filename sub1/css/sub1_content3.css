@@ -1,0 +1,27 @@
+/* 연혁 실제 본문 내용 */
+#content {width: 1200px; margin: 0 auto;}
+
+#content .year ul{overflow: hidden;box-sizing: border-box; color: #ccc; margin-top: 40px; margin-bottom: 110px; }
+#content .year ul li{width:20% ; float: left; text-align: center; }
+#content .year ul li a{color: #999;padding: 15px 0 ; position: relative;
+    transition: all .5s;}
+#content .year ul li a::after{content: ''; display: block;
+    width: 2px; height: 20px; background: #ccc; position: absolute;
+    right: -2px; top:19px}    
+#content .year ul li:hover a,#content .year ul li .current {
+    color: #fff; background: #2ab6ad;}
+#content h3{color: #2ab6ad; font-family: 1.39rem; font-weight: 500;}
+
+#content section{overflow: hidden; margin-bottom: 100px;}
+#content section img{float: left;}
+#content section div{margin-left: 680px;}
+#content section:nth-of-type(even) img{float: right;}
+#content section:nth-of-type(even) div{margin-left: 0; margin-right: 680px;}
+
+#content section h3{font-size: 1.5em; font-weight: 700; margin-bottom: 10px;}
+#content section p{margin-bottom: 30px;}
+#content section dl{border-bottom: 1px solid #ccc;
+    padding-bottom: 30px;margin-bottom: 30px;}
+#content section dt{font-size: 1.2rem;margin-bottom: 15px;font-weight: 600}
+#content section dd{margin-bottom: 10px;}
+#content section dd span{font-weight: 500px; padding-right: 15px;}

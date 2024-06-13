@@ -1,0 +1,37 @@
+/* 회사개요의 실제 본문 내용 */
+#content .content_area{width: 1200px;}
+#content .content_area p{font-size: 1.50rem; font-weight: 600; color:#2ab6ad ;text-align: center; margin-top: 50px; margin-bottom: 170px;}
+
+#content .content_box li {overflow: hidden;}
+#content .content_box li dl dt{font-size: 2.22rem; font-weight: 600;}
+#content .content_box li dl dd{font-size: 1.28rem; font-weight: 400;}
+#content .content_box li img{border-radius: 30px; }
+#content .content_box li:nth-of-type(1) img{float: right;}
+#content .content_box li:nth-of-type(2) img{float: left;}
+#content .content_box li:nth-of-type(3) img{float: right;}
+
+#content .content_box .change{position: relative; overflow: hidden;}
+#content .content_box .change img{margin-bottom:140px;}
+#content .content_box .change dl{width: 630px;position: absolute; top: 100px; right: 430px; text-align: right;  text-align: right; overflow: hidden; }
+#content .content_box .change dl dt{margin-bottom: 50px; color: #2ab6ad;}
+
+#content .content_box .trust{position: relative; overflow: hidden;}
+#content .content_box .trust img{margin-bottom:140px;}
+#content .content_box .trust dl{width: 620px;position: absolute; top: 100px; left: 430px; text-align: right;  text-align: left; overflow: hidden; }
+#content .content_box .trust dl dt{margin-bottom: 50px; color: #2ab6ad;}
+
+
+#content .content_box .environment{position: relative; overflow: hidden;}
+#content .content_box .environment img{margin-bottom:140px;}
+#content .content_box .environment dl{width: 640px;position: absolute; top: 100px; right: 430px; text-align: right;  text-align: right; overflow: hidden; }
+#content .content_box .environment dl dt{margin-bottom: 50px;color: #2ab6ad;}
+
+
+#content .business_con{width: 1200px; margin: 0 auto; position: relative; }
+#content .business_con ul{overflow: hidden; margin-bottom: 150px;}
+#content .business_con li{width: 25%; float: left; text-align: center; box-sizing: border-box;
+       border-right: 1px dashed #ccc;}
+#content .business_con li:last-child{border: 0;}
+#content .business_con img{margin-bottom: 20px; height: 120px; }
+#content .business_con dt{font-size: 1.1rem; font-weight: 600; margin-bottom: 10px;}
+#content .business_con dd{line-height: 1.5em;}

@@ -1,0 +1,13 @@
+/* 회사개요의 실제 본문 내용 */
+#content .content_area{width: 1200px;}
+#content span{display: block;}
+#content{width: 1200px;}
+
+
+
+
+
+ .content_area h3{font-size: 1.94rem; font-weight: 600;margin-bottom: 30px; }
+ 
+ .content_area .list_box{display: flex; flex-wrap: wrap;}
+ 

@@ -1,0 +1,18 @@
+/* 회사개요의 실제 본문 내용 */
+#content .content_area{width: 1200px;}
+#content span{display: block;}
+#content{width: 1200px;}
+
+
+#content .content_area h3{font-size: 1.94rem; font-weight: 600;}
+#content .content_area .pliability ul,#content .content_area .health ul,.content_area .growth ul{overflow: hidden; margin-bottom: 150px; margin-top: 50px;}
+
+#content .content_area .pliability ul li,#content .content_area .health li,.content_area .growth ul li
+{width: 25%; float: left; text-align: center; box-sizing: border-box;}
+
+#content .content_area .pliability ul img,#content .content_area .health ul img,#content .content_area .growth ul img{margin-bottom: 20px; height: 140px;}
+#content .content_area ul dt{font-size: 1.11rem; font-weight: 500;margin-bottom: 20px;}
+#content .content_area ul dd{font-size: 0.83rem; font-weight: 400;margin-bottom: 20px; color: #6D6E71;}
+
+/* .content_area .growth ul li{display: flex; justify-content: space-between;width: 250px; text-align: center; box-sizing: border-box;} */
+/* .content_area .growth ul li{width: 25%; float: left; text-align: center; box-sizing: border-box;} */

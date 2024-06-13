@@ -1,0 +1,35 @@
+/* 회사개요의 실제 본문 내용 */
+#content .content_area{width: 1200px;}
+/* #content span{display: block;} */
+#content{width: 1200px;}
+ 
+.info{margin: 50px 0;}
+
+.info h3{font-size: 1.94rem; font-weight: 600;margin-bottom: 30px;margin-bottom:20px;}
+.info p{font-size: 1.11rem; font-weight:600 ;}
+
+.content_area .con1 ul li{overflow: hidden;}
+.content_area .con1 ul li:nth-child(odd)img{float: left;}
+.content_area .con1 ul li:nth-child(even)img{float: right;}
+.content_area .con1 ul li img{vertical-align: top;}
+.content_area .con1 ul li:nth-child(odd) dl{float: right; box-sizing: border-box; 
+    width: 575px;height: 320px;padding: 85px 120px 20px  0;}
+
+.content_area .con1 ul li:nth-child(even) dl{float: left;box-sizing: border-box; width: 575px;     
+    height: 320px;padding:85px 15px 117px 15px;}
+
+.content_area .con1 ul li dl dt{font-size: 1.67rem; font-weight: 600; 
+    text-align: center; color: #ed1C24;margin-bottom: 5px;}
+
+.content_area .con1 ul li dl dd{font-size: 1.11rem; 
+    font-weight: 500; text-align: center; line-height: 2rem;}
+
+.content_area .con2{margin: 210px 0}
+
+/* .content_area .con2::after{content: '';display: block; width: 2000px;
+    height: 900px; background:#f8f8f8 ; position: absolute;
+   top:0; left: 50%; margin-left: -1000px; z-index: -1;} */
+
+.content_area .con2 p{font-size: 1.39rem;font-weight: 600; text-align: justify;}
+.content_area .con2 p::after{content: ''; }
+.content_area .con2 span{font-size: 1.50rem; color: #ed1C24;}

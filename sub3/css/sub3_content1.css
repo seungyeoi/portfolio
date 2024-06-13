@@ -1,0 +1,52 @@
+/* 회사개요의 실제 본문 내용 */
+#content .content_area{width: 1200px;}
+#content span{display: block;}
+#content{width: 1200px;}
+.content_area .tab_menu ul {
+    overflow: hidden;
+    margin-bottom: 50px;
+    margin-top: 50px;
+   box-sizing: border-box;}
+
+.content_area .tab_menu li a {
+    font-weight: 400;
+    font-size: 1.28rem;
+    color: #333;
+    display: block;
+    padding: 15px;
+    text-align: center;}
+    
+
+.content_area .tab_menu li {
+       float: left;
+       width: 50%;
+       box-sizing: border-box;border: 1px solid #ccc;}
+   
+.content_area .tab_menu li:hover a, .content_area .tab_menu li .current{background:#2ab6ad ;color: #fff;}
+   
+.content_area .esg1 h3{font-size: 1.94rem; font-weight: 500; margin-top: 100px;}
+.content_area .esg1 img{ width: 100%; margin: 60px auto;}
+
+.content_area .esg2{margin-bottom: 200px;}
+.content_area .esg2 img{margin: 60px 200px auto;}
+
+
+
+
+.content_area  .contlist .policy_box{padding-top: 50px;}
+.content_area .policy_box .esg_policy h3{font-size: 1.94rem; font-weight: 500; margin-top: 100px;}
+.content_area .policy_box .esg_policy {position: relative;margin-bottom: 700px;}
+.content_area .policy_box .esg_policy p{padding-top: 20px; 
+border-top:4px solid #666 ;width: 800px;}
+.content_area .esg_policy p:nth-of-type(1)
+{position: absolute; left: 430px; top: 0;font-size: 1.11rem; font-weight: 500;}
+.content_area .esg_box
+{position: absolute;left:430px; top: 120px; background: #f6f6f6;width: 700px;padding: 40px;}
+
+.content_area .esg_box span
+{font-size: 1.39rem;margin-bottom: 40px;margin-left: -10px;}
+
+.content_area .esg_box ul
+{width: 700px;font-size: 1rem; font-weight: 400;text-align: left;line-height: 1.5rem;list-style: disc;  } 
+
+.content_area .esg_box ul li{padding-bottom: 5px;}
