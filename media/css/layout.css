@@ -1,0 +1,349 @@
+/* 와이드 pc  */
+
+#content{ width:100%; margin:0;background:rgba(0,0,0,.85); overflow: hidden; }
+#content .heading{ font-family: "Nanum Myeongjo", serif; color: #fff; font-size: 2.3rem; margin-bottom: 30px;}
+#content .more{color: #fff; padding: 15px; text-align: center;
+    background: #e7592e; width: 150px; border-radius: 15px; font-weight: bold;transition: all .5s;}
+#content .more:hover{background: #fff; color: #e7592e; box-shadow: 1px 1px 10px 1px rgba(0,0,0,.5);}
+
+
+/* 함안의 역사  */
+#content .history{width: 90%; margin: 100px auto; position: relative; }
+#content .history ul{
+    display: grid; 
+    grid-template-columns: 45% 33% 20%;
+    grid-template-rows: auto;
+    grid-gap: 15px 1%;
+    grid-template-areas: 
+    'a b c'
+    'a b d';
+}
+
+#content .history ul img{width: 100%; height: 100%; object-fit: cover; object-position: center;}
+#content .history ul li{overflow: hidden;}
+#content .history ul li img {transition: all .5s ease;}
+#content .history ul li:hover img{transform: scale(1.1);}
+#content .history p{color: #fff; line-height: 1.5rem; text-align: justify;
+       margin-bottom: 25px;}
+#content .history .more{position: absolute; left: 0; bottom:0;}
+#content .history1{grid-area: a;}
+#content .history2{grid-area: b;}
+#content .history3{grid-area: c;}
+#content .history4{grid-area: d;}
+
+
+/* 함안의 놀이 */
+#content .game{width: 100%;background: url(../images/game1.jpg) center no-repeat; 
+    background-size: cover; padding-top: 120px; padding-bottom: 120px;}
+#content .game h3{text-align: center; margin-bottom: 120px;}
+#content .game .con_box{width: 100%; overflow: hidden; position: relative;
+    }
+#content .game .con_box dl {color: #fff; padding-bottom: 100px;}
+#content .game .con_box dl dt{font-size: 1.5rem; margin-bottom: 25px; font-weight: 700;}
+#content .game .con_box dl dd{font-size: 1rem; margin-bottom: 30px; line-height: 1.5rem;}
+#content .game .con_box dl img{width: 100%; height: 100%; object-fit: cover; object-position: center;}
+#content .game .con_box dl:nth-of-type(1) img {display: none;}
+#content .game .con_box dl:nth-of-type(1){float: right; text-align: right; margin-bottom: 80px;margin-right: 5%;}
+#content .game .con_box dl:nth-of-type(2){float: left; margin-left: 5%; text-align: left;}
+#content .game .con_box dl:nth-of-type(3){float: right; text-align: right; margin-right: 5%; }
+#content .game .more{ clear: both; margin: 0 auto;}
+
+
+/* 함안의 특산물 */
+#content .food{background: #fff; padding-top: 150px; padding-bottom: 150px; position: relative;}
+#content .food h3{text-align: center; margin-bottom: 120px; color: #333;}
+#content .food ul{width: 95%;position: relative; margin: 0 auto;
+    display: grid; 
+    grid-template-columns:20% 25% 50%;
+    grid-template-rows: auto;
+    grid-gap: 15px 1%;
+    grid-template-areas: 
+    'a b c'
+    'd e f';}
+#content .food ul li dt{font-weight: 700; font-size: 1.3rem; margin-bottom: 20px;}
+#content .food ul li dd{font-size: 1rem; text-align:justify; margin-right: 3%}
+#content .food ul li{position: relative; overflow: hidden;}    
+#content .food ul li p{width: 100%;position: absolute; left: 3%; bottom: 10%; 
+    color: #fff; font-weight: 600; opacity: 0; transition: all .5s ease-out;}
+#content .food ul li:hover p{opacity: 1;}
+#content .food ul li img{width: 100%; height: 100%; object-fit: cover; object-position: center; 
+    transition: all 0.5s ease-in-out;}
+#content .food ul li img:hover{transform: scale(1.1);filter: brightness(50%)
+    ;}
+#content .food .more{ clear: both; margin: 80px auto 0;}
+
+#content .food1{grid-area: a;}
+#content .food2{grid-area: b;}
+#content .food3{grid-area: c; background: url(../images/gam.jpg) right bottom no-repeat; background-size: 30%;}
+#content .food4{grid-area: d;}
+#content .food5{grid-area: e;}
+#content .food6{grid-area: f;}
+
+
+
+/* 함안9경 */
+#content .tourist h3{text-align: center; margin-bottom: 50px;}
+#content .tourist{width: 100%;background: #5f879a;color: #fff; padding-top: 150px; padding-bottom: 150px; position: relative;}
+#content .tourist ul{padding-bottom: 70px;}
+#content .tourist ul li{width:100%;display: flex;
+    flex-direction: row-reverse;gap: 30px;box-sizing: border-box;padding: 30px;}
+#content .tourist ul li dl{ width: 85%; margin: 0 auto;}
+#content .tourist ul li dl dt{margin-bottom: 80px; display: flex; }
+#content .tourist ul li dl dt strong{background: #fff; padding: 15px; color: #333;display: block;font-size: 1.1rem; border-radius: 10px;}
+#content .tourist ul li dl dt span{padding: 15px 0 0 30px; font-weight: 600; font-size: 1.2rem;display: block;}
+#content .tourist ul li dl dd{text-align: justify; margin-bottom: 30px; }
+#content .tourist img{border-radius: 15px; width: 60%; display: block; margin: 0 auto;}
+.swiper-scrollbar-drag{background: #fcdfbc;}
+#content .tourist .more{ clear: both; margin: 80px auto 0;}
+
+
+
+/* gallery */
+#content .gallery {padding-top: 100px; padding-bottom: 150px; position: relative;}
+#content .gallery h3{color: #fff;text-align: center;} 
+#content .gallery p{color: #fff;text-align: center; margin-bottom: 120px;}  
+#content .gallery ul{display: grid;
+    grid-template-columns: repeat(1fr 1fr 2fr); 
+    grid-gap: 10px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    'a b c c'
+    'd d e f'
+    'd d g g '
+    ;
+}
+#content .gallery ul li{overflow: hidden;}
+#content .gallery ul li img{width: 100%; object-fit: cover; object-position: center;transition: all .5s ;}
+#content .gallery ul li img:hover{transform: scale(1.1);}
+#content .gallimg1{grid-area: a;}
+#content .gallimg2{grid-area: b;}
+#content .gallimg3{grid-area: c;}
+#content .gallimg4{grid-area: d;}
+#content .gallimg5{grid-area: e;}
+#content .gallimg6{grid-area: f;}
+#content .gallimg7{grid-area: g;}
+
+#content .gallery .more{ clear: both; margin: 80px auto 0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+	#content .history p:nth-of-type(2){display: none;}
+    #content .history .more{bottom:0;}
+}
+
+
+
+/* 테블릿===================================================================== */
+@media screen and (max-width:1024px) {
+/*히스토리*/
+	#content .history .heading{font-size: 2rem; text-align: center;}
+    #content .history ul{
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        grid-template-areas: 
+        'a a'
+        'b c';}
+    #content .history4{display: none;}   
+    #content .history .more{position: static; margin: 50px auto;}
+
+
+ /*놀이*/
+    #content .game{background: url(../images/game_back.jpg)center no-repeat; 
+        background-size: cover;}
+    #content .game .con_box dl dt{font-size: 1.2rem; margin-bottom: 25px; font-weight: 700; color: #333; margin: 0 auto 80px;
+    background: #fff; width: 180px; 
+    padding: 11px; border-radius: 15px;}
+    #content .game .con_box dl dd{font-size: 0.88rem; margin-left: 3%; margin-right: 3%;}
+    #content .game .con_box dl img{width: 94%; border:  0px; margin-left: 3%; margin-right: 3%; border-radius: 20px; }
+    #content .game .con_box dl:nth-of-type(1) img {display: block; margin: 30px auto;}
+    #content .game .con_box dl:nth-of-type(1){float: none; text-align: center; margin-bottom: 80px;margin-right: 0%;}
+    #content .game .con_box dl:nth-of-type(2){float: none; margin-left: 0%; text-align: center;}
+    #content .game .con_box dl:nth-of-type(3){float: none; text-align: center; margin-right: 0%; }
+    #content .game .con_box dl span{display: none;}
+    
+/*특산물*/   
+    #content .food ul li:hover p{opacity: 0;}
+    #content .food ul li img:hover{transform: scale(1);filter: brightness(100%);}
+    #content .food ul li img{
+        object-fit: cover; object-position: center; transition: none;}
+    #content .food ul{width: 95%;position: relative; margin: 0 auto;
+        display: grid; 
+        grid-template-columns:repeat(2, 1fr);
+        grid-template-rows: auto;
+        grid-gap: 15px;
+        grid-template-areas: 
+        'b c'
+        'd f';}
+
+    #content .food1{display: none;}
+    #content .food2{grid-area: b;}
+    #content .food3{grid-area: c; background: none; background-size: 0%;}
+    #content .food4{grid-area: d;}
+    #content .food5{display: none;}
+    #content .food6{grid-area: f;}
+
+
+
+
+/* 9경 */
+
+#content .tourist{padding-top: 150px; padding-bottom: 150px;}
+#content .tourist ul{padding-bottom: 40px;}
+#content .tourist ul li{display: flex; 
+    gap: 20px;padding: 30px;}
+#content .tourist ul li dl{ width: 90%; margin: 0 auto; line-height:1em}
+#content .tourist ul li dl dt{margin-bottom: 30px; display: flex; }
+#content .tourist ul li dl dt strong{background: #fff; padding: 15px; color: #333;display: block;font-size: 1rem; border-radius: 10px;}
+#content .tourist ul li dl dt span{padding: 15px 0 0 30px; font-weight: 600; font-size: 1rem;display: block;}
+#content .tourist ul li dl dd:nth-of-type(2){display: none;}
+#content .tourist img{border-radius: 15px; width: 60%; height: auto;
+    object-fit: cover;
+    display: block; margin: 0 auto;}
+
+}
+
+
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+	
+}
+
+
+
+
+
+
+
+
+
+/* 모바일 ========================================================*/
+
+
+@media screen and (max-width:640px) {
+	#content .history ul{
+        grid-template-columns: 1fr;
+        grid-gap: 15px;
+        grid-template-areas: 
+        'a'
+        'b';}
+    #content .history3{display: none;}   
+    #content .history .heading{font-size: 1.8rem;}
+    #content .history p{font-size: .9rem;}
+    #content .history ul img{height:300px}
+    #content .history .more{margin: 30px auto;}
+
+ /*놀이*/
+#content .game .con_box dl:nth-of-type(1) img {display: block; margin: 0 auto;}
+#content .game h3{text-align: center; margin-bottom: 120px;}
+#content .game .con_box{width: 100%; overflow: hidden; position: relative;
+    }
+#content .game .con_box dl {color: #fff; padding-bottom: 120px;}
+#content .game .con_box dl dd{display: none;}
+
+/*특산물*/
+#content .food ul li img{width: 290px; height: 280px; object-fit:cover;
+    object-position: center;}
+#content .food ul{width: 95%;position: relative; margin: 0 auto;
+    display: grid; 
+    grid-template-columns:repeat(2, 1fr);
+    /*grid-template-rows: auto;*/
+    grid-gap: 15px;
+    grid-template-areas: 
+    'c c'
+    'e f'
+    'a b';}
+
+    #content .food1{grid-area: a; display: block;}
+    #content .food2{grid-area: b;}
+    #content .food3{grid-area: c; background: none; background-size: 0%;}
+    #content .food4{display: none;}
+    #content .food5{grid-area: e; display: block;}
+    #content .food6{grid-area: f;}
+
+/* 9경 */
+#content .tourist h3{font-size: 1.8rem;}
+#content .tourist{padding-top: 100px; padding-bottom: 100px; }
+#content .tourist ul{padding-bottom: 40px;}
+#content .tourist ul li{display: flex; 
+    gap: 20px;padding: 30px;}
+#content .tourist ul li dl{ width: 90%; margin: 0 auto; line-height:1em}
+#content .tourist ul li dl dt{margin-bottom: 30px; display:block; }
+#content .tourist ul li dl dt strong{background: #fff; padding: 15px; color: #333;display: block;font-size: 1rem; border-radius: 10px;
+width: 100px; text-align: center; margin: 0 auto 10px;}
+#content .tourist ul li dl dt span{padding: 15px 0 0 0; font-weight: 600; font-size: 1rem;display: block;}
+#content .tourist ul li dl dd{font-size: 0.88rem;}
+#content .tourist ul li dl dd:nth-of-type(2){display: none;}
+#content .tourist img{border-radius: 15px; width: 60%; height: auto;
+    object-fit: cover;
+    display: block; margin: 0 auto;}
+
+
+
+/* 갤러리*/
+#content .galleryt h3{font-size: 1.8rem;}
+#content .gallery ul{display: grid;
+    grid-template-columns: repeat(2fr 1fr); 
+    grid-gap: 10px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    'g g'
+    'd d'
+    'f e'
+    ;
+}
+
+#content .gallimg1{display: none;}
+#content .gallimg2{display: none;}
+#content .gallimg3{display: none;}
+#content .gallimg4{grid-area: d;}
+#content .gallimg5{grid-area: e;}
+#content .gallimg6{grid-area: f;}
+#content .gallimg7{grid-area: g;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

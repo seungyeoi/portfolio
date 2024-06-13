@@ -1,0 +1,52 @@
+/* 와이드 pc  */
+
+	
+#imgBG{display: block;}
+	
+#content{ width:100%; margin:0; background:rgba(0,0,0,.7);position: relative; padding-bottom: 100px;  }
+#content h2{position: absolute; top: -500px;
+width: 100%; text-align: center; font-size: 4em; color: #fff;}
+#content h3{width: 100%;color: #fff; font-size: 2rem; text-align: center;
+    font-family: "Nanum Myeongjo";padding: 50px 0;margin-bottom: 20px;}
+#content p{color: #fff; text-align: center;margin-bottom: 120px;}   
+#content h4{width:20%;color: #fff; font-size: 1.1rem; text-align: center;
+padding: 20px 0;background: #F67979;margin: 45px auto; border-radius: 15px;}
+#content section{margin-bottom: 250px;}
+#content .first,#content .second {overflow: hidden; width: 95%; margin: 2% auto;}
+#content .first img,#content .second img{float: left;width: 50%;object-fit: cover; object-position: center; border-radius: 15px; margin-right: 1%;}
+#content dl{width: 100%; color: #fff;}
+#content dt{margin-bottom: 20px; line-height: 1.5rem; margin-top: 15px;}
+#content dd{line-height: 1.5rem;}
+
+#content .swiper-container ul{width: 100%;}
+#content .swiper-container li{padding: 0 10px;}
+#content .swiper-container li img{ width: 100%;object-fit: cover; object-position: center; border-radius: 15px; }
+
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+	
+}
+
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+
+ 
+
+}
+
+
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+  
+}
+
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+   
+
+}

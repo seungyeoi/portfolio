@@ -1,0 +1,118 @@
+/* 와이드 pc  */
+
+	
+#imgBG{display: block;}
+	
+#content{ width:100%; margin:0; background:rgba(255,255,255,.95);position: relative; padding-bottom: 100px;  }
+#content h2{position: absolute; top: -500px;
+width: 100%; text-align: center; font-size: 4em; color: #fff;}
+#content h3{width: 100%;color: #333; font-size: 2rem; text-align: center;
+    font-family: "Nanum Myeongjo";padding: 50px 0;margin-bottom: 70px;}
+#content .tab_menu{padding-top: 50px;}
+#content .tab_menu ul { 
+    width: 94%; 
+    margin-left: 3%;
+    overflow: hidden;
+    margin-bottom: 60px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    padding: 10px 0;
+    border-radius: 15px;
+    }
+
+#content .tab_menu li {float: left;width: 33.3%;}
+#content .tab_menu li a{color: #333; text-align: center; padding: 10px; font-weight: bold;}
+#content .tab_menu li .current{background: #77bc4a; color: #fff; border-radius: 15px; margin: 0 20%;}
+
+
+
+
+/* 낙화놀이 */
+#content .contlist div{width: 85%; margin:0 auto 100px; position: relative;
+    display: flex;gap:2%;justify-content:center;align-items: center ;}
+#content .contlist dl{width: 45%; color: #333;}
+#content .contlist dt{font-size: 1.5rem; font-weight: 600; margin-bottom: 15px;}
+#content .contlist dd{font-size: 1rem; font-weight: 500; line-height: 1.5rem; text-align: justify;}
+#content .contlist img{width: 53%; height: auto;object-fit: cover;
+    object-position: center; box-shadow: 1px 1px 20px 1px rgba(0,0,0,.4);border-radius: 15px; }
+
+#content .contlist div:nth-of-type(2){flex-direction: row-reverse}
+
+#content .falling div:nth-of-type(1)::after{content: 'MUJINJUNG';display: block;
+    position: absolute; color: #c8c8c8;font-size: 2.8rem;font-weight: 300;
+    right:-60px;top:70%;transform: rotate(90deg); transform-origin: right top;} 
+#content .falling div:nth-of-type(2)::after{content: 'Falling Flower Stick';
+    position: absolute; color: #c8c8c8;font-size: 2.8rem;font-weight: 300;
+    left:-60px;top: 80%;transform: rotate(-90deg);transform-origin: left top;} 
+#content .falling div:nth-of-type(3)::after{content: 'Buddhas Birthday';
+        position: absolute; color: #c8c8c8;font-size: 2.8rem;font-weight: 300;
+        right:-60px;top: 80%;transform: rotate(90deg);transform-origin: right top;} 
+
+#content .cultural div:nth-of-type(1)::after{content: 'ARAGAYA';
+    position: absolute; color: #c8c8c8;font-size: 2.8rem;font-weight: 300;
+    right: -60px;top: 70%;transform: rotate(90deg);transform-origin: right top;} 
+#content .cultural div:nth-of-type(2)::after{content: 'Festival';
+    position: absolute; color: #c8c8c8;font-size: 2.8rem;font-weight: 300;
+    left: -60px;top: 70%;transform: rotate(-90deg);transform-origin: left top;} 
+#content .cultural div:nth-of-type(3)::after{content: 'MUJINJUNG';
+        position: absolute; color: #c8c8c8;font-size: 2.8rem;font-weight: 300;
+        right: -60px;top: 70%;transform: rotate(90deg);transform-origin: right top;} 
+
+#content .tug div:nth-of-type(1)::after{content: 'SAMCHILL';
+    position: absolute; color: #c8c8c8;font-size: 2.8rem;font-weight: 300;
+    right: -60px;top: 70%;transform: rotate(90deg);transform-origin: right top;} 
+#content .tug div:nth-of-type(2)::after{content: 'Tug-of-war';
+    position: absolute; color: #c8c8c8;font-size: 2.8rem;font-weight: 300;
+    left: -60px;top: 70%;transform: rotate(-90deg);transform-origin: left top;} 
+#content .tug div:nth-of-type(3)::after{content: 'MUJINJUNG';
+        position: absolute; color: #c8c8c8;font-size: 2.8rem;font-weight: 300;
+        right: -60px;top: 70%;transform: rotate(90deg);transform-origin: right top;} 
+
+
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+	
+}
+
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+
+#content .contlist div{display: block; width: 94%; margin-left: 3%;}
+#content .contlist dl{width: 100%; margin-bottom: 20px;}
+#content .contlist img{width: 100%; border-radius: 0px;}
+#content .falling div:nth-of-type(1)::after{display: none;}
+#content .falling div:nth-of-type(2)::after{display: none;}
+#content .falling div:nth-of-type(3)::after{display: none;}
+
+#content .cultural div:nth-of-type(1)::after{display: none;}
+#content .cultural div:nth-of-type(2)::after{display: none;}
+#content .cultural div:nth-of-type(3)::after{display: none;}
+
+#content .tug div:nth-of-type(1)::after{display: none;}
+#content .tug div:nth-of-type(2)::after{display: none;}
+#content .tug div:nth-of-type(3)::after{display: none;}
+
+
+
+
+}
+
+
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+    #content h2{font-size: 3rem;}
+	#content .tab_menu li .current{margin: 0 5%;}
+
+}
+
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+    #content .tab_menu li {float:none;width:auto;}
+	
+
+}

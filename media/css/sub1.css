@@ -1,0 +1,163 @@
+/* 와이드 pc  */
+
+	
+#imgBG{display: block;}
+	
+#content{ width:100%; margin:0; background:rgba(0,0,0,.9);position: relative; padding-bottom: 100px;  }
+#content h2{position: absolute; top: -500px;
+width: 100%; text-align: center; font-size: 4em; color: #fff;}
+#content h3{width: 100%;color: #fff; font-size: 1.39rem; text-align: center;
+    font-family: "Nanum Myeongjo";padding-top: 150px;margin-bottom: 70px;}
+
+
+
+/* 역사 */
+
+#content .history .history_info p{width: 94%;color: #fff;text-align: center; line-height: 2rem; margin-left: 3%;}
+#content .history .info_box ul{position: relative;
+    width: 94%; margin-left: 3%; margin-right: 3%; 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 50px 50px 0;
+    gap: 15px;}
+
+#content .history .info_box ul li::before{
+    content: "";
+    display: block;
+    width: 50%;
+    height: 100%;
+    background: rgba(0, 0, 0, .7);
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#content .history .info_box ul li{width: 100%;padding: 50px 0;overflow: hidden;position: relative;}
+#content .history .info_box ul li:nth-of-type(1) {
+    grid-column: 1 / span 2;
+    background:url(../images/sub1_img1.jpg) center no-repeat;
+    background-size: cover;
+    
+}
+
+#content .history .info_box ul li:nth-of-type(2) {
+    background:url(../images/sub1_img2.jpg) center no-repeat;
+    background-size: cover;
+}
+
+
+#content .history .info_box ul li:nth-of-type(3) {
+    background:url(../images/sub1_img3.jpg) center no-repeat;
+    background-size: cover;
+}
+
+#content .history .info_box ul li dl{
+   margin: 0 3% 0 53%;  position: relative;  
+}
+
+
+#content .history .info_box ul li dl dt{
+    color: #fff; font-size: 1.3rem; font-weight: 600; margin-bottom: 20px;
+}
+
+#content .history .info_box ul li dl dd{
+    color: #fff; font-weight: 400; line-height: 1.8rem;  text-align: justify;
+}
+
+
+
+#content .history .scrollevent{
+    height: auto;
+    background: url(../images/sub1_img4.jpg) no-repeat fixed center;
+    background-size: cover;
+    padding: 200px 72px;
+    margin-top: 150px;
+}   
+
+
+
+/* 연꽃 */
+#content .flower .swiper2{position: relative;}
+#content .flower .flower_info p{width: 94%;color: #fff;text-align: center; margin-bottom: 50px; 
+    font-size: 1rem; font-weight: 500;line-height: 1.5rem;line-height: 2rem; margin-left: 3%;
+}
+#content .flower .con ul {padding: 50px 0 80px;}
+#content .flower .con ul li{text-align: center;}
+#content .flower .con ul li img{width:95%; border-radius: 20px;}
+
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+	
+}
+
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+	#content .history h3,#content .flower .flower_info h3{font-size: 1.2rem;}
+    #content .history p,#content .flower .flower_info p{font-size: 0.89rem;}
+    #content .history .info_box ul{grid-column: 1fr;}
+    #content .history .info_box span{display: none;}
+    #content .history .info_box ul li dl dt{font-size: 1rem;}
+    #content .history .info_box ul li dl dd{font-size: 0.79rem;}
+    #content .history .info_box ul li dl {margin-right: 3%;}
+
+    #content .history .scrollevent{
+        padding: 150px 65px;
+    }   
+}
+
+
+
+
+
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+    #content h2{font-size: 3rem;}
+	#content .history .scrollevent{
+        padding: 100px 40px;}
+
+    #content .flower p span{display: none;}
+
+}
+
+
+
+
+
+
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+
+	#content .history .info_box ul{position: relative;
+        width: 94%; margin-left: 3%; margin-right: 3%; 
+        display: block;
+        }
+
+    #content .history .info_box ul li::before{
+        content: "";
+        display: block;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, .7);
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    #content .history .info_box ul li dl{
+        margin: 0 3% 0 3%;  position: relative;  
+     }
+     
+     #content .history .info_box ul li {margin-bottom: 30px;}
+
+
+     #content .history .scrollevent{
+        padding: 100px 40px;
+      
+    }   
+
+
+}
