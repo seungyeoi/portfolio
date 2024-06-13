@@ -1,0 +1,103 @@
+/* 비주얼영역 */
+.visual{position: relative;}
+.visual img{width: 100%; vertical-align: top;}
+.visual h3{color: #fff;position: absolute; left:0 ; top: 50%;
+    font-size: 1.29rem; font-weight: 600; width: 100%;
+    text-align: center;}
+/* 네비 & 컨텐츠 top영역 */
+.subNav{position: relative;}
+.subNav .arrow {
+    height: 25px;
+    border-bottom: 1px solid #666;
+    padding: 12px 15px;
+    font-size: 16px;}
+.subNav .arrow span {
+        float: right;}
+.subNav .aList {
+    position: absolute;
+    top: 50px;
+    display: none;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    z-index: 20;}
+.subNav .aList li a {
+    display: block;
+    text-align: justify;
+    padding: 15px 0;
+    transition: all 1s;
+    padding: 12px;
+    background: #fff;
+    color: #666;
+    font-size: 16px;}    
+
+#content .tittle_area h2{
+    font-size: 1.57rem; 
+    font-weight: 600; 
+    margin-top: 30px; 
+    text-align: center;
+    position: relative;}
+    
+#content .tittle_area h2::after {
+    content: "";
+    display: block;
+    background: #2ab6ad;
+    width: 3px;
+    height: 30px;
+    position: absolute;
+    left: 50%;
+    bottom: -130px;
+    z-index: 10;}   
+
+#content .tittle_area p{
+    font-size: 1.14rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+/* tap메뉴 */
+.content_area .tab_menu ul{
+    overflow: hidden;
+    margin-bottom: 60px;
+    margin-top: 120px;
+    box-sizing: border-box;
+}
+.content_area .tab_menu li a{
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #333;
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+.content_area .tab_menu li{
+    float: left;
+    width: 50%;
+    box-sizing: border-box; 
+    border: 1px solid #cccc;
+}
+
+.content_area .tab_menu li:hover a, .content_area .tab_menu li .current{background: #2ab6ad; color: #fff;}
+
+
+
+/* 컨텐츠영역 */
+.content_area .info{width: 100%;background:url(../images/sub3_img1.jpg) 40% center  no-repeat; background-size: cover; margin: 0 auto 150px;}
+.content_area .info img{width: 100%;}
+.content_area .info h3{font-size: 1.5rem; font-weight: 500; padding-top: 70px;color: #fff; margin-bottom: 50px; margin-left: 3%;} 
+.content_area .info p{font-size: 1.1rem; color: #fff; padding-bottom: 100px;margin-left: 3%; margin-right: 3%;} 
+
+
+/* 중점추진사업 */
+
+.content_area .focus{width: 94%; margin-left: 3%; margin-right: 3%;}
+.content_area .focus h3{font-size: 1.5rem; font-weight: 500; margin-bottom: 30px;}
+.content_area .focus p{font-size: 1.1rem; margin-bottom: 30px;}
+.content_area .focus ul{width: 100%; margin-bottom: 150px;}
+.content_area .focus ul li .con_box{padding-right: 5px;}
+.content_area .focus ul li img{width: 100%; box-sizing: border-box; border-radius: 15px;}
+.content_area .focus ul li dt{font-size: 1rem; font-weight: 500;text-align: center; color: #ed1c24; margin-bottom: 10px; margin-top: 10px;}
+.content_area .focus ul li dd{font-size: 0.8rem; text-align: left; width: 94%; margin: 0 auto;}

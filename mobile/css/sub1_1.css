@@ -1,0 +1,65 @@
+/* 비주얼영역 */
+.visual{position: relative;}
+.visual img{width: 100%; vertical-align: top;}
+.visual h3{color: #fff;position: absolute; left:0 ; top: 50%;
+     font-size: 1.29rem; font-weight: 600; width: 100%;
+     text-align: center;}
+
+/* 컨텐츠 영역 */
+.subNav{position: relative;}
+.subNav .arrow {
+    height: 25px;
+    border-bottom: 1px solid #666;
+    padding: 12px 15px;
+    font-size: 16px;}
+.subNav .arrow span {
+        float: right;}
+.subNav .aList {
+    position: absolute;
+    top: 50px;
+    display: none;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    z-index: 20;}
+.subNav .aList li a {
+    display: block;
+    text-align: justify;
+    padding: 15px 0;
+    transition: all 1s;
+    padding: 12px;
+    background: #fff;
+    color: #666;
+    font-size: 16px;}    
+
+#content .tittle_area h2{
+    font-size: 1.57rem; 
+    font-weight: 600; 
+    margin-top: 30px; 
+    text-align: center;
+    position: relative;}
+    
+#content .tittle_area h2::after {
+    content: "";
+    display: block;
+    background: #2AB6AD;
+    width: 3px;
+    height: 30px;
+    position: absolute;
+    left: 50%;
+    bottom: -150px;
+    z-index: 10;}   
+
+#content .tittle_area p{
+    font-size: 1.14rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+#content .content_area img{width: 94%; margin-left: 3%;}
+#content .content_area dl{width: 94%; margin-left: 3%; margin-bottom: 50px;}
+#content .content_area dl dt{font-size: 1.21rem; 
+    font-weight: 500; color: #2AB6AD; margin:10px 0 10px 0; }   
+#content .content_area dl dd{font-size: 1.07rem; font-weight: 400; line-height: 1.5rem;margin-bottom: 40px; }

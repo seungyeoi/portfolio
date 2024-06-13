@@ -1,0 +1,78 @@
+/* 비주얼영역 */
+.visual{position: relative;}
+.visual img{width: 100%; vertical-align: top;}
+.visual h3{color: #fff;position: absolute; left:0 ; top: 50%;
+    font-size: 1.29rem; font-weight: 600; width: 100%;
+    text-align: center;}
+/* 네비 & 컨텐츠 top영역 */
+.subNav{position: relative;}
+.subNav .arrow {
+    height: 25px;
+    border-bottom: 1px solid #666;
+    padding: 12px 15px;
+    font-size: 16px;}
+.subNav .arrow span {
+        float: right;}
+.subNav .aList {
+    position: absolute;
+    top: 50px;
+    display: none;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    z-index: 20;}
+.subNav .aList li a {
+    display: block;
+    text-align: justify;
+    padding: 15px 0;
+    transition: all 1s;
+    padding: 12px;
+    background: #fff;
+    color: #666;
+    font-size: 16px;}    
+
+#content .tittle_area h2{
+    font-size: 1.57rem; 
+    font-weight: 600; 
+    margin-top: 30px; 
+    text-align: center;
+    position: relative;}
+    
+#content .tittle_area h2::after {
+    content: "";
+    display: block;
+    background: #02A7CF;
+    width: 3px;
+    height: 30px;
+    position: absolute;
+    left: 50%;
+    bottom: -180px;
+    z-index: 10;}   
+
+#content .tittle_area p{
+    font-size: 1.14rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+/* 컨텐츠영역 */
+
+.first{font-size: 1.2rem; font-weight: 500; margin-bottom: 60px; margin-top: 120px;}
+.first p {width: 94%;margin-left: 3%; }
+.first p span{color: #ED1C24;}
+
+.greeting{position: relative; padding: 30px 15px 50px; background: #f8f8f8;}
+
+
+.greeting .ceo_img{width: 35%;float: left; margin-bottom: 15px;}
+.greeting .ceo_img img{width: 100%;}    
+.greeting .text {text-align: justify;
+   font-size: 1rem; font-weight: 400;} 
+.greeting .text p{margin-bottom: 20px; line-height: 1.5rem;}
+.greeting .text p:nth-of-type(1){margin-left: 37%;}
+.greeting .text p:nth-of-type(2){clear: both;}
+.greeting .text p:nth-of-type(6){margin: 10px 0 8px 0}
+.greeting .text p span{font-size: 1.1rem; font-weight: 400; color: #2ab6ad;}
+.greeting .text .last{color: #333; font-size: 1.15rem;}

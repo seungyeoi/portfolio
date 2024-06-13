@@ -1,0 +1,56 @@
+/* 메인 비주얼,콘텐츠 */
+.visual{box-sizing: border-box; }
+.visual li {position: relative;}
+.visual img{width: 100%;}
+.visual li span {font-size: 1.6rem;
+    font-weight: 600;color: #fff;position: absolute;top: 40%;left: 3%;}
+.visual .swiper-container {width: 100%; height: auto;}
+.visual .swiper-slide{height: auto; box-sizing: border-box; }
+.visual .swiper-pagination-bullet-active{background: red; z-index: 10;}
+
+/* 콘텐츠영역 */
+
+#content h3{font-size: 2.14rem; font-weight: 700; margin-bottom: 20px; margin-left: 15px;}
+#content p{font-size: 1.3rem;text-align: left; margin:0 0 40px 15px;}
+
+/* 회사소개 */
+#content .info{position: relative; padding-top: 30px;margin-bottom: 30px;}
+#content .info .more{position: absolute; top: 45px; right: 15px;}
+#content .info .more span{font-size: 2rem; color: #2AB6AD;}
+#content .info .swiper2{width: 95%; margin: 0 auto; padding:0 1%;}
+#content .info ul{padding: 30px 0;}
+#content .info ul li{text-align: center;box-shadow: 1px 1px 5px 1px rgba(0,0,0,.3); box-sizing: border-box; 
+    border-radius: 20px; background: #ddd; width: 100%; height: 330px;padding:25px 0;}
+#content .info ul li img{margin-bottom: 10px;}
+#content .info ul li dl dt{font-size: 1.1rem; font-weight: 600; ; line-height: 1.8rem; padding-bottom: 10px;}
+#content .info ul li dl dd{font-size: 1.1rem; font-weight: 400; color: #666;}
+
+/* 회사소개 */
+#content .business{margin-bottom: 30px;}
+#content .con_box ul{width: 100%; overflow: hidden; margin: 0 auto;}
+#content .con_box ul li{float: left; width: 48%; margin: 0 -.5% 10px 1.5%; text-align: center;}
+#content .con_box ul li img{width: 90%; height: auto;border-radius: 50%;margin-bottom: 20px;}
+#content .con_box ul li dl {text-align: center; margin-bottom: 35px;}
+#content .con_box ul li dl dt{ font-size: 1.4rem; font-weight: 600; margin-bottom: 24px;}
+#content .con_box ul li dl dd{ width: 100%;;font-size: 1rem; font-weight: 400; line-height: 1.5em; } 
+#content .con_box ul li dl a {display: block;color: #6D6E71; margin: 15px auto 0;width:150px; text-align: center; border: 2px solid #2AB6AD;padding: 5px 0;border-radius: 15px;font-size: .8em;} 
+
+/* ESG경영 */
+.management h3,.media h3{font-size: 2.14rem; font-weight: 700;margin-bottom: 20px;}
+.management {margin-bottom: 50px;}
+.management p,.media p{font-size: 1.5rem;text-align: left; margin-bottom: 40px; width: 480px;}
+.management ul{padding-bottom: 40px;}
+.management ul li img{width: 100%; box-sizing: border-box; padding: 20px;}
+.management ul li dl{margin-top: 40px; overflow: hidden;}
+.management ul li dt {float: left; margin:0 10px; background: #fff; border: 2.5px solid #2AB6AD; border-radius: 20px; padding: 10px 25px; color: #2AB6AD; font-size: 1.1rem; font-weight: 500;} 
+.management ul li dd{text-align: left; font-size: 1rem; font-weight: 400; margin-right: 10px;
+           margin-left:170px ;}
+.management .swiper-scrollbar-drag{background: #2AB6AD;}
+
+/* 홍보센터 */
+.media{position: relative;}
+.media ul{padding-bottom: 40px;}
+.media ul li{text-align: center; width: 100%;}
+.media ul li img{width:100%;margin-bottom: 20px; }
+.media .more{position: absolute;  top: 15px; right: 15px;}
+.media .more span{font-size: 2rem; color: #2AB6AD;}

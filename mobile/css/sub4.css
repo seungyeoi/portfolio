@@ -1,0 +1,92 @@
+/* 비주얼영역 */
+.visual{position: relative;}
+.visual img{width: 100%; vertical-align: top;}
+.visual h3{color: #fff;position: absolute; left:0 ; top: 50%;
+    font-size: 1.29rem; font-weight: 600; width: 100%;
+    text-align: center;}
+/* 네비 & 컨텐츠 top영역 */
+.subNav{position: relative;}
+.subNav .arrow {
+    height: 25px;
+    border-bottom: 1px solid #666;
+    padding: 12px 15px;
+    font-size: 16px;}
+.subNav .arrow span {
+        float: right;}
+.subNav .aList {
+    position: absolute;
+    top: 50px;
+    display: none;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    z-index: 20;}
+.subNav .aList li a {
+    display: block;
+    text-align: justify;
+    padding: 15px 0;
+    transition: all 1s;
+    padding: 12px;
+    background: #fff;
+    color: #666;
+    font-size: 16px;}    
+
+#content .tittle_area h2{
+    font-size: 1.57rem; 
+    font-weight: 600; 
+    margin-top: 30px; 
+    text-align: center;
+    position: relative;}
+    
+#content .tittle_area h2::after {
+    content: "";
+    display: block;
+    background: #2ab6ad;
+    width: 3px;
+    height: 30px;
+    position: absolute;
+    left: 50%;
+    bottom: -130px;
+    z-index: 10;}   
+
+#content .tittle_area p{
+    font-size: 1.14rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+/* 컨텐츠영역 */
+
+
+#content .content_area .first{position: relative; width: 94%;margin-left: 3%; margin-bottom: 40px;}
+
+#content .content_area .first .video{max-width: 100%;
+    padding-top: 28%; padding-bottom: 30%;}
+#content .content_area .first iframe{position: absolute; left: 0; top: 0;}
+#content .content_area .youtube_text1{position: relative;}
+#content .content_area .youtube_text::before{content: "";
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 500px;
+    background-color: #F6FCFF;
+    z-index: -1;
+    }
+.content_area .youtube_text ul{width: 94%; margin-left: 3%;}
+.content_area .youtube_text ul li span{font-size: 1rem; font-weight: 400; color: #2ab6ad;}
+.content_area .youtube_text ul {margin-bottom: 90px;}
+.content_area .youtube_text ul li dl{width: 100%;}
+.content_area .youtube_text ul li dt{margin-top: 15px; font-size: 1.2rem; font-weight: 500; margin-bottom: 15px;}
+.content_area .youtube_text ul li dd:nth-of-type(1){font-size:1rem ; text-align: left; margin-bottom: 15px;}
+.content_area .youtube_text ul li dd:nth-of-type(2){font-size:0.8rem ; text-align: left; margin-bottom: 15px; color: #ccc;}
+
+
+/* 유튜브 */
+
+.content_area .con_box{width: 94%; margin-left: 3%; margin-bottom: 100px;}
+.content_area .con_box ul{margin-bottom: 80px;}
+.content_area .con_box img{width: 100%; box-sizing: border-box; margin-bottom: 10px;}
+.content_area .con_box li a{font-size: 0.71rem; font-weight: 500; text-align: left; line-height: 1.5rem; width: 100%;}
